@@ -5,17 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HairSalonBE.API", "HairSalonBE.API\HairSalonBE.API.csproj", "{E86CB317-3B91-4F7F-B8C7-78F489F55322}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.REPOSITORY", "3.REPOSITORY", "{764E208B-E22C-49BF-A0B3-9492AB64C892}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HairSalon.Core", "HairSalon.Core\HairSalon.Core.csproj", "{3227B95A-7DD4-4A86-BA2A-9976468AB18F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HairSalon.Repositories", "HairSalon.Repositories\HairSalon.Repositories.csproj", "{A165021E-D517-4F3C-B51D-95E9EB60B968}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HairSalon.Contract.Repositories", "HairSalon.Contract.Repositories\HairSalon.Contract.Repositories.csproj", "{3D04F4D4-0E02-4849-97A9-9E1D386B3B8A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HairSalon.Services", "HairSalon.Services\HairSalon.Services.csproj", "{F04B3A27-AE75-4661-B298-CE69F6717865}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HairSalon.ModelViews", "HairSalon.ModelViews\HairSalon.ModelViews.csproj", "{FBAA5C63-0D97-469D-A24D-212E029657C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,30 +23,13 @@ Global
 		{3227B95A-7DD4-4A86-BA2A-9976468AB18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3227B95A-7DD4-4A86-BA2A-9976468AB18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3227B95A-7DD4-4A86-BA2A-9976468AB18F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A165021E-D517-4F3C-B51D-95E9EB60B968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A165021E-D517-4F3C-B51D-95E9EB60B968}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A165021E-D517-4F3C-B51D-95E9EB60B968}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A165021E-D517-4F3C-B51D-95E9EB60B968}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D04F4D4-0E02-4849-97A9-9E1D386B3B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D04F4D4-0E02-4849-97A9-9E1D386B3B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D04F4D4-0E02-4849-97A9-9E1D386B3B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D04F4D4-0E02-4849-97A9-9E1D386B3B8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F04B3A27-AE75-4661-B298-CE69F6717865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F04B3A27-AE75-4661-B298-CE69F6717865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04B3A27-AE75-4661-B298-CE69F6717865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04B3A27-AE75-4661-B298-CE69F6717865}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FBAA5C63-0D97-469D-A24D-212E029657C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FBAA5C63-0D97-469D-A24D-212E029657C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FBAA5C63-0D97-469D-A24D-212E029657C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FBAA5C63-0D97-469D-A24D-212E029657C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A165021E-D517-4F3C-B51D-95E9EB60B968} = {764E208B-E22C-49BF-A0B3-9492AB64C892}
-		{3D04F4D4-0E02-4849-97A9-9E1D386B3B8A} = {764E208B-E22C-49BF-A0B3-9492AB64C892}
-		{FBAA5C63-0D97-469D-A24D-212E029657C8} = {764E208B-E22C-49BF-A0B3-9492AB64C892}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44AD9DDA-1356-49FA-80E2-2BD31FFBCBA5}

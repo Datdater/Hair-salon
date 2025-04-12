@@ -58,7 +58,7 @@ namespace HairSalonBE.API
 		{
 			services.AddDbContext<DatabaseContext>(options =>
 			{
-				options.UseLazyLoadingProxies().UseSqlServer(configuration.GetConnectionString("HairSalonDb"));
+				options.UseSqlServer(configuration.GetConnectionString("HairSalonDb"));
 			});
 		}
 
