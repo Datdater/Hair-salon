@@ -1,4 +1,4 @@
-﻿using HairSalon.Contract.Services.Cache;
+﻿using HairSalon.Contract.Services.Interface;
 using Microsoft.Extensions.Caching.Distributed;
 using StackExchange.Redis;
 using System.Text.Json;

@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HairSalon.Contract.Services\HairSalon.Contract.Services.csproj" />
+    <ProjectReference Include="..\HairSalon.Core\HairSalon.Core.csproj" />
   </ItemGroup>
 
 </Project>

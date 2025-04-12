@@ -1,5 +1,4 @@
-﻿using HairSalon.Contract.Services.Cache;
-using HairSalon.Contract.Services.Interface;
+﻿using HairSalon.Contract.Services.Interface;
 using HairSalon.Core;
 using HairSalon.ModelViews.ServiceModelViews;
 using Microsoft.AspNetCore.Authorization;

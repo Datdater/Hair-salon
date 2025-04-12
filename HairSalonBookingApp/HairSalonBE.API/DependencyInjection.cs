@@ -1,5 +1,4 @@
 ﻿using HairSalon.Contract.Repositories.Entity;
-using HairSalon.Contract.Services.Cache;
 using HairSalon.Contract.Services.Interface;
 using HairSalon.Repositories.Context;
 using HairSalon.Repositories.Entity;

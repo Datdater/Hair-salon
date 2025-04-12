@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using HairSalon.ModelViews.SalaryPaymentModelViews;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using HairSalon.Contract.Services.Cache;
 using HairSalon.Core;
 using HairSalon.ModelViews.RoleModelViews;
 using HairSalon.ModelViews.PaymentModelViews;

@@ -1,0 +1,53 @@
+# Visual Studio Specific
+.vs/
+.vscode/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.cache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.ilk
+*.idb
+
+# Rider & Resharper
+.idea/
+*.sln.iml
+*.dotCover
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+global.json
+.nuget/
+
+# Entity Framework Migrations
+Migrations/
+
+# ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Publish
+publish/
+wwwroot/
+
+# Logs
+logs/
+*.log
+/FurEverCarePlatform.API/appsettings.json
+/FurEverCarePlatform.API/appsettings.Development.json
+/Dockerfile

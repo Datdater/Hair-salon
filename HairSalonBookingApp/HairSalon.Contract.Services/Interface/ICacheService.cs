@@ -1,5 +1,4 @@
-﻿
-namespace HairSalon.Contract.Services.Cache
+﻿namespace HairSalon.Contract.Services.Interface
 {
 	public interface ICacheService
 	{
